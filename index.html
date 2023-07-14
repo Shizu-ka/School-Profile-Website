@@ -44,7 +44,6 @@ https://templatemo.com/tm-557-grad-school
         <li><a href="#section4">Courses</a></li>
         <!-- <li><a href="#section5">Video</a></li> -->
         <li><a href="#section6">Contact</a></li>
-        <li><a href="https://templatemo.com" class="external">External</a></li>
         <li><a href="list_buku.html" class="external">list</a></li>
       </ul>
     </nav>
@@ -354,6 +353,20 @@ https://templatemo.com/tm-557-grad-school
               </div>
             </div>
           </form>
+          <script>
+            const form = document.getElementById('contact');
+
+            form.addEventListener('submit', e => {
+              e.preventDefault();
+
+              const name = document.getElementById('name').value;
+              const message = document.getElementById('message').value;
+              const nameText = `Perkenalkan saya ${name}`;
+              const url = `https://wa.me/6285266954060?text=${encodeURIComponent(nameText)} : %0A${encodeURIComponent(message)}`;
+
+              window.open(url, '_blank');
+            }); 
+          </script>
         </div>
         <div class="col-md-6">
           <div id="map">
