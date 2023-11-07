@@ -1,4 +1,4 @@
-## Give a star if you are helped by this repo 🙏
+# Give a star if you are helped by this repo 🙏
 
 # School-Profile-Website
 This is school profile for SDN 2 Ampeldento, Malang
