@@ -3,7 +3,7 @@
 # School-Profile-Website
 This is school profile for SDN 2 Ampeldento, Malang
 
-Link : [website](https://sdn2ampeldento.my.id/)
+Link : [website](https://shizu-ka.github.io/School-Profile-Website/)
 
 ![image](https://github.com/Shizu-ka/School-Profile-Website/assets/58659139/d0920738-fb55-4f72-b04d-60b1fac47e40)
 
